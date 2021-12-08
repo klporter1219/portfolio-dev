@@ -21,107 +21,99 @@ p {
 /* Nav */
 nav {
   width: 100%;
-  height: 150px;
+  height: 75px;
   background-color: #778d7a;
   text-align: center;
-}
-
-.title {
-  font-size: 100px;
-  font-weight: lighter;
-  color: black;
-  text-decoration: none;
-  padding: 20px;
+  padding: 15px;
 }
 
 .title-chosen {
-  font-size: 100px;
+  font-size: 40px;
   font-weight: lighter;
   color: white;
   text-decoration: none;
-  padding: 20px;
+  margin-left: 20px;
 }
 
 .header-links {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: lighter;
   color: black;
   text-decoration: none;
-  padding: 20px;
+  margin-left: 20px;
 }
 .header-links-chosen {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: lighter;
   color: white;
   text-decoration: none;
-  padding: 20px;
 }
 
 .instagram-header {
-  width: 100px;
-  height: 100px;
+  width: 30px;
+  height: 30px;
+  margin-top: 20px;
 }
 
 .twitter-header {
-  width: 100px;
-  height: 100px;
+  width: 40px;
+  height: 40px;
 }
 
 /* Home page */
 .index-body {
-  /* background-color: white; */
-  background-image: url("../images/index-background.jpeg");
+  background-image: url("../images/index.jpeg");
   background-size: cover;
   width: 100%;
-  height: 1300px;
+  height: 650px;
 }
 
 .index-intro {
-  font-size: 110px;
-  color: #b48068;
+  font-size: 60px;
+  color: white;
   font-weight: lighter;
-  padding-top: 500px;
+  padding-top: 250px;
   padding-left: 50px;
 }
 
 .index-para {
-  font-size: 90px;
-  color: #be9886;
+  font-size: 50px;
+  color: white;
   font-weight: lighter;
-  padding-top: 100px;
+  /* padding-top: 100px; */
   padding-left: 50px;
 }
 
 /* Artwork page */
 .artwork-body {
   width: 100%;
-  height: 4325px;
+  height: 3850px;
 }
 
 .artwork {
-  width: 650px;
-  height: 650px;
+  width: 400px;
+  height: 400px;
   box-shadow: 10px 5px 20px black;
-  margin: 33px;
+  margin: 37px;
 }
 
 /* Logos page */
 .logos-body {
   width: 100%;
-  height: 2950px;
+  height: 1650px;
   text-align: center;
 }
 
 .subtitle-logos {
   font-size: 40px;
   font-weight: lighter;
-  color: #be9886;
+  color: #e2b39f;
   text-align: center;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
 .title-logos {
-  font-size: 80px;
+  font-size: 60px;
   font-weight: lighter;
   color: #b48068;
   text-align: center;
@@ -129,100 +121,95 @@ nav {
 }
 
 .piaf {
-  width: 1300px;
-  height: 500px;
+  width: 600px;
+  height: 200px;
   box-shadow: 10px 5px 20px black;
   margin: 33px;
 }
 
 .logo {
-  width: 900px;
-  height: 900px;
-  box-shadow: 10px 5px 20px black;
-}
-
-/* Websites Page */
-.websites-paragraph {
-  width: 100%;
-  height: 900px;
-  background-image: url("../images/index.jpeg");
-  background-size: cover;
-}
-
-.websites-title {
-  color: white;
-  font-size: 100px;
-  font-weight: lighter;
-  text-align: center;
-  padding-top: 250px;
-}
-
-.first-website {
-  width: 100%;
-  height: 1200px;
-}
-
-.final-website {
-  width: 750px;
+  width: 500px;
   height: 500px;
+  box-shadow: 10px 5px 20px black;
 }
 
 /* digital painting page */
 .digital-paragraph {
   background-image: url("../images/index-backg.jpeg");
   background-size: cover;
+  background-position-y: -100px;
   width: 100%;
-  height: 900px;
+  height: 400px;
   text-align: center;
 }
 
 .digital-title {
-  font-size: 80px;
+  font-size: 50px;
   font-weight: lighter;
-  color: #b48068;
-  padding-top: 30px;
+  color: #e7d6ce;
+  margin-top: 30px;
+}
+
+.digital-painting {
+  width: 600px;
+  height: 600px;
+  box-shadow: 10px 5px 20px black;
+  margin: 55px;
 }
 
 .digital-painting-body {
   width: 100%;
-  height: 900px;
+  height: 730px;
+}
+
+/* digital imagery page */
+.digital-imagery {
+  width: 600px;
+  height: 600px;
+  box-shadow: 10px 5px 20px black;
+  margin: 55px;
+  object-fit: cover;
+}
+
+.digital-imagery-body {
+  width: 100%;
+  height: 1425px;
 }
 
 /* Footer */
 footer {
   width: 100%;
-  height: 150px;
+  height: 75px;
   background-color: #778d7a;
   text-align: center;
   display: flex;
 }
 
 .footer-title {
-  font-size: 50px;
+  font-size: 30px;
   color: white;
   font-weight: lighter;
-  padding-left: 180px;
-  padding-top: 40px;
+  margin-top: 20px;
+  margin-left: 50px;
 }
 
 .instagram-footer {
-  width: 80px;
-  height: 80px;
-  margin-left: 800px;
-  margin-top: 40px;
+  width: 30px;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 400px;
 }
 
 .twitter-footer {
-  width: 80px;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 40px;
+  width: 40px;
+  height: 40px;
+  margin-top: 15px;
 }
 
 .email {
-  font-size: 50px;
+  font-size: 30px;
   color: white;
   font-weight: lighter;
-  padding-left: 800px;
-  padding-top: 40px;
+  margin-top: 20px;
+  margin-left: 400px;
 }
